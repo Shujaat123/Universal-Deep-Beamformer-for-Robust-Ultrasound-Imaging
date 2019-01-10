@@ -3,7 +3,7 @@ Computer code and dataset for "Universal Deep Beamformer for Robust Ultrasound I
 
 Paper
 ===============
-* Shujaat Khan, Jaeyoung Huh, and Jong Chul Ye. "Universal Deep Beamformer for Robust Ultrasound Imaging." https://arxiv.org/abs/1901.01706v1.
+* Shujaat Khan, Jaeyoung Huh, and Jong Chul Ye. "Universal Deep Beamformer for Variable Rate Ultrasound Imaging." https://arxiv.org/abs/1901.01706.
 
 Implementation
 ===============
