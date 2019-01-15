@@ -15,20 +15,14 @@ Implementation
 Trained network
 ===============
 * Trained network for 'Universal Deep Beamformer CNN' is uploaded.
+* Use 100th or 200th epoch weights for validation. (Results in paper were generated using 200th epoch's weights)
 
 Test data
 ===============
-* Test data file is placed in 'data\cnn_sparse_view_init_multi_normal_dsr2_input64' folder.
-* The dimension of data are as follows
-  -- Test_data      =  64x384x1x2304  (channel x scanline x frame x depth)
+* A sample test data is placed in 'data\' folder.
+* The dimensions of data are as follows
+  -- Test_data      =  3x96x64x2048  (input-planes x scanlines x channels x depth)
                         
 To perform a test using proposed algorithm
 
--> Use 'DNN4x1_TestVal' as input data
-
--> Run 'MAIN_RECONSTRUCTION.m
-
--> You will get the reconstructed RF data in the 'data\cnn_sparse_view_init_multi_normal_dsr2_input64' directory.
-
--> Using standard delay-and-sum (DAS) beam-forming code construct a B-mode image. For our experiments we used a DAS beam-forming code provided by (Alpinion Co., Korea). A similar code can be downloaded from ('http://www.ultrasoundtoolbox.com/').
-
+-> Run 'DeepBF_Test.m
